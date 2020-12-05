@@ -46,6 +46,10 @@ repositories {
         name 'tterrag Repo'
         url "http://maven.tterrag.com"
     }
+    maven {
+        name = "curseforge"
+        url = "https://minecraft.curseforge.com/api/maven/"
+    }
 }
 
 dependencies {
