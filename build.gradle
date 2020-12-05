@@ -30,6 +30,10 @@ minecraft {
 }
 
 repositories {
+    maven { //Computercraft, NEI, chicken core and lib
+	name = "GregTech maven"
+	url = "https://gregtech.overminddl1.com/"
+    }
     maven { // WAILA
         name "Mobius Repo"
         url "http://mobiusstrip.eu/maven"
