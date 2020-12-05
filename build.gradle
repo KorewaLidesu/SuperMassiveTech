@@ -46,15 +46,22 @@ repositories {
         name 'tterrag Repo'
         url "http://maven.tterrag.com"
     }
-    maven {
-        name = "curseforge"
-        url = "https://minecraft.curseforge.com/api/maven/"
+    maven { url = "https://minecraft.curseforge.com/api/maven" }
+	    maven {
+        url = "http://minecraft.curseforge.com/api/maven/"
+    }
+    ivy {
+        url "https://google.com/404"
+        ivyPattern("https://google.com/404") // Workaround for https://github.com/gradle/gradle/issues/4107
+        artifactPattern("https://media.forgecdn.net/files/[organisation]/[module]/[revision].[ext]")
     }
 }
 
 dependencies {
     compile "com.enderio.core:EnderCore:${endercore_version}:dev"
     compile "mcp.mobius.waila:Waila:${WAILA_version}_${minecraft_version}:dev"
+    compileOnly "CodeChickenCore-1.7.10-1.0.4.35.jar"
+    compileOnly "NotEnoughItems-1.7.10-1.0.4.107.jar"
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
