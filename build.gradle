@@ -4,6 +4,7 @@ buildscript {
 	jcenter()
         maven { url = "http://files.minecraftforge.net/maven" }
         maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
+	maven { url = "https://gregtech.overminddl1.com/" }
     }
     dependencies {
         classpath("com.anatawa12.forge:ForgeGradle:1.2-1.0.+") {
