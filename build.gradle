@@ -60,9 +60,9 @@ repositories {
 dependencies {
     compile "com.enderio.core:EnderCore:${endercore_version}:dev"
     compile "mcp.mobius.waila:Waila:${WAILA_version}_${minecraft_version}:dev"
-    compile "codechicken:NotEnoughItems:${minecraft_version}-${nei_version}:dev"
-    compile "codechicken:CodeChickenLib:${minecraft_version}-${ccl_version}:dev"
-    compile "codechicken:CodeChickenCore:${minecraft_version}-${ccc_version}:dev"
+    compile "codechicken:CodeChickenLib:1.7.10-1.1.3.140:dev"
+    compile "codechicken:CodeChickenCore:1.7.10-1.0.7.47:dev"
+    compile "codechicken:NotEnoughItems:1.7.10-1.0.5.120:dev"
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
