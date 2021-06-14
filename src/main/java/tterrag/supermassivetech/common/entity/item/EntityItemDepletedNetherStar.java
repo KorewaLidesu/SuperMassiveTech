@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.entity.item;
+package korewali.supermassivetech.common.entity.item;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -8,9 +8,9 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.common.registry.Achievements;
-import tterrag.supermassivetech.common.tile.energy.TileStarHarvester;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.common.registry.Achievements;
+import korewali.supermassivetech.common.tile.energy.TileStarHarvester;
 
 public class EntityItemDepletedNetherStar extends EntityItemIndestructible
 {
