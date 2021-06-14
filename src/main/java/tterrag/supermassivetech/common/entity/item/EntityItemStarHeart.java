@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.entity.item;
+package korewali.supermassivetech.common.entity.item;
 
 import java.util.LinkedList;
 import java.util.Random;
@@ -10,10 +10,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.common.network.PacketHandler;
-import tterrag.supermassivetech.common.network.message.MessageStarHeartParticle;
-import tterrag.supermassivetech.common.registry.Achievements;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.common.network.PacketHandler;
+import korewali.supermassivetech.common.network.message.MessageStarHeartParticle;
+import korewali.supermassivetech.common.registry.Achievements;
+import korewali.supermassivetech.common.util.Utils;
 
 import com.enderio.core.common.util.BlockCoord;
 import com.enderio.core.common.util.ItemUtil;
@@ -21,7 +21,7 @@ import com.enderio.core.common.util.blockiterators.CubicBlockIterator;
 
 import cpw.mods.fml.common.ObfuscationReflectionHelper;
 
-import static tterrag.supermassivetech.SuperMassiveTech.*;
+import static korewali.supermassivetech.SuperMassiveTech.*;
 
 public class EntityItemStarHeart extends EntityItemIndestructible
 {
