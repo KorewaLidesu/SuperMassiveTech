@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.handlers;
+package korewali.supermassivetech.common.handlers;
 
 import java.lang.reflect.Field;
 import java.util.List;
@@ -19,11 +19,11 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.MathHelper;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.client.util.ClientUtils;
-import tterrag.supermassivetech.common.config.ConfigHandler;
-import tterrag.supermassivetech.common.network.message.MessageUpdateGravityArmor.PowerUps;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.client.util.ClientUtils;
+import korewali.supermassivetech.common.config.ConfigHandler;
+import korewali.supermassivetech.common.network.message.MessageUpdateGravityArmor.PowerUps;
+import korewali.supermassivetech.common.util.Utils;
 import cofh.api.energy.IEnergyContainerItem;
 
 import com.enderio.core.common.Handlers.Handler;
@@ -36,7 +36,7 @@ import cpw.mods.fml.common.gameevent.TickEvent.Phase;
 import cpw.mods.fml.common.gameevent.TickEvent.PlayerTickEvent;
 import cpw.mods.fml.relauncher.ReflectionHelper;
 
-import static tterrag.supermassivetech.common.util.Utils.doStatesMatch;
+import static korewali.supermassivetech.common.util.Utils.doStatesMatch;
 
 @Handler(HandlerType.FML)
 public class GravityArmorHandler
