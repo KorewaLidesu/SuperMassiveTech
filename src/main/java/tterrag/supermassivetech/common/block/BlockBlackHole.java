@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.block;
+package korewali.supermassivetech.common.block;
 
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
@@ -6,8 +6,8 @@ import net.minecraft.entity.Entity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.common.tile.TileBlackHole;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.common.tile.TileBlackHole;
 
 public class BlockBlackHole extends BlockSMT implements ITileEntityProvider
 {
