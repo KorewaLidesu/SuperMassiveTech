@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.util;
+package korewali.supermassivetech.client.util;
 
 import java.util.Random;
 
@@ -18,20 +18,20 @@ import net.minecraftforge.common.util.ForgeDirection;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import tterrag.supermassivetech.client.fx.EntityCustomFlameFX;
-import tterrag.supermassivetech.client.fx.EntityCustomSmokeFX;
-import tterrag.supermassivetech.client.handlers.ClientKeyHandler;
-import tterrag.supermassivetech.client.handlers.ClientKeyHandler.ArmorPower;
-import tterrag.supermassivetech.client.handlers.ClientKeyHandler.ArmorPowerState;
-import tterrag.supermassivetech.common.item.ItemGravityArmor;
-import tterrag.supermassivetech.common.item.ItemGravityArmor.ArmorType;
-import tterrag.supermassivetech.common.network.message.tile.MessageChargerUpdate;
-import tterrag.supermassivetech.common.network.message.tile.MessageEnergyUpdate;
-import tterrag.supermassivetech.common.network.message.tile.MessageUpdateBlackHole;
-import tterrag.supermassivetech.common.tile.TileBlackHole;
-import tterrag.supermassivetech.common.tile.abstracts.TileSMTEnergy;
-import tterrag.supermassivetech.common.tile.energy.TileCharger;
-import tterrag.supermassivetech.common.tile.energy.TileStarHarvester;
+import korewali.supermassivetech.client.fx.EntityCustomFlameFX;
+import korewali.supermassivetech.client.fx.EntityCustomSmokeFX;
+import korewali.supermassivetech.client.handlers.ClientKeyHandler;
+import korewali.supermassivetech.client.handlers.ClientKeyHandler.ArmorPower;
+import korewali.supermassivetech.client.handlers.ClientKeyHandler.ArmorPowerState;
+import korewali.supermassivetech.common.item.ItemGravityArmor;
+import korewali.supermassivetech.common.item.ItemGravityArmor.ArmorType;
+import korewali.supermassivetech.common.network.message.tile.MessageChargerUpdate;
+import korewali.supermassivetech.common.network.message.tile.MessageEnergyUpdate;
+import korewali.supermassivetech.common.network.message.tile.MessageUpdateBlackHole;
+import korewali.supermassivetech.common.tile.TileBlackHole;
+import korewali.supermassivetech.common.tile.abstracts.TileSMTEnergy;
+import korewali.supermassivetech.common.tile.energy.TileCharger;
+import korewali.supermassivetech.common.tile.energy.TileStarHarvester;
 import cpw.mods.fml.client.FMLClientHandler;
 
 /**
