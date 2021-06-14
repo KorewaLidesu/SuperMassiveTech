@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.block.container;
+package korewali.supermassivetech.common.block.container;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
@@ -8,9 +8,9 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.api.common.block.ISaveToItem;
-import tterrag.supermassivetech.common.tile.energy.TileStarHarvester;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.api.common.block.ISaveToItem;
+import korewali.supermassivetech.common.tile.energy.TileStarHarvester;
 
 import com.enderio.core.common.util.ItemUtil;
 
