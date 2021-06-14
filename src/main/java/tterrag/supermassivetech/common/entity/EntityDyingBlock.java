@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.entity;
+package korewali.supermassivetech.common.entity;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
