@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.block.container;
+package korewali.supermassivetech.common.block.container;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -9,11 +9,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.api.common.item.IAdvancedTooltip;
-import tterrag.supermassivetech.common.tile.energy.TileCharger;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.api.common.item.IAdvancedTooltip;
+import korewali.supermassivetech.common.tile.energy.TileCharger;
+import korewali.supermassivetech.common.util.Utils;
 
 public class BlockCharger extends BlockContainerSMT implements IAdvancedTooltip
 {
