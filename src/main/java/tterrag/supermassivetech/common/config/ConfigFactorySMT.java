@@ -1,7 +1,7 @@
-package tterrag.supermassivetech.common.config;
+package korewali.supermassivetech.common.config;
 
 import net.minecraft.client.gui.GuiScreen;
-import tterrag.supermassivetech.client.config.ConfigGuiSMT;
+import korewali.supermassivetech.client.config.ConfigGuiSMT;
 
 import com.enderio.core.common.config.BaseConfigFactory;
 
