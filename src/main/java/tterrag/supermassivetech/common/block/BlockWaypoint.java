@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.block;
+package korewali.supermassivetech.common.block;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -10,15 +10,15 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.api.common.block.ISaveToItem;
-import tterrag.supermassivetech.api.common.compat.IWailaAdditionalInfo;
-import tterrag.supermassivetech.api.common.item.IAdvancedTooltip;
-import tterrag.supermassivetech.client.util.GuiHelper;
-import tterrag.supermassivetech.common.tile.TileWaypoint;
-import tterrag.supermassivetech.common.util.Utils;
-import tterrag.supermassivetech.common.util.Waypoint;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.api.common.block.ISaveToItem;
+import korewali.supermassivetech.api.common.compat.IWailaAdditionalInfo;
+import korewali.supermassivetech.api.common.item.IAdvancedTooltip;
+import korewali.supermassivetech.client.util.GuiHelper;
+import korewali.supermassivetech.common.tile.TileWaypoint;
+import korewali.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.common.util.Waypoint;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
