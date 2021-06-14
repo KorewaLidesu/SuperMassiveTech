@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.compat.nei;
+package korewali.supermassivetech.common.compat.nei;
 
 import com.enderio.core.common.compat.ICompat;
 
