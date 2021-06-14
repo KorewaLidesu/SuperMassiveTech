@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.render.entity;
+package korewali.supermassivetech.client.render.entity;
 
 import static org.lwjgl.opengl.GL11.*;
 
@@ -16,7 +16,7 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import tterrag.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.SuperMassiveTech;
 
 public class RenderFormingStar extends Render
 {
