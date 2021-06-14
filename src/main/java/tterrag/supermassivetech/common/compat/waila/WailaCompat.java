@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.compat.waila;
+package korewali.supermassivetech.common.compat.waila;
 
 import java.util.List;
 
@@ -19,11 +19,11 @@ import net.minecraft.world.World;
 
 import org.lwjgl.input.Keyboard;
 
-import tterrag.supermassivetech.api.common.compat.IWailaAdditionalInfo;
-import tterrag.supermassivetech.api.common.item.IAdvancedTooltip;
-import tterrag.supermassivetech.common.block.BlockSMT;
-import tterrag.supermassivetech.common.config.ConfigHandler;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.api.common.compat.IWailaAdditionalInfo;
+import korewali.supermassivetech.api.common.item.IAdvancedTooltip;
+import korewali.supermassivetech.common.block.BlockSMT;
+import korewali.supermassivetech.common.config.ConfigHandler;
+import korewali.supermassivetech.common.util.Utils;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class WailaCompat implements IWailaDataProvider
