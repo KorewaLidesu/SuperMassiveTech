@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.model;
+package korewali.supermassivetech.client.model;
 
 import java.util.ArrayList;
 import java.util.List;
