@@ -1,11 +1,11 @@
-package tterrag.supermassivetech.common.entity.item;
+package korewali.supermassivetech.common.entity.item;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.common.item.ItemStarSpecial;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.common.item.ItemStarSpecial;
 
 public class EntityItemStar extends EntityItemIndestructible
 {
