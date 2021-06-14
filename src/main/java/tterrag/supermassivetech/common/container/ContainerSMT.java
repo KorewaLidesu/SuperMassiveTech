@@ -1,10 +1,10 @@
-package tterrag.supermassivetech.common.container;
+package korewali.supermassivetech.common.container;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
-import tterrag.supermassivetech.common.tile.abstracts.TileSMTInventory;
+import korewali.supermassivetech.common.tile.abstracts.TileSMTInventory;
 
 public abstract class ContainerSMT extends Container
 {
