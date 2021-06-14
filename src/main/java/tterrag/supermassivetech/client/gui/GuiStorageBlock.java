@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.gui;
+package korewali.supermassivetech.client.gui;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,10 +13,10 @@ import net.minecraftforge.fluids.FluidStack;
 
 import org.lwjgl.opengl.GL11;
 
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.common.container.ContainerBlackHoleStorage;
-import tterrag.supermassivetech.common.tile.TileBlackHoleStorage;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.common.container.ContainerBlackHoleStorage;
+import korewali.supermassivetech.common.tile.TileBlackHoleStorage;
+import korewali.supermassivetech.common.util.Utils;
 
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.common.util.EnderStringUtils;
