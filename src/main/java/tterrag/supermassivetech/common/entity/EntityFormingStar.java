@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.entity;
+package korewali.supermassivetech.common.entity;
 
 import java.util.ArrayList;
 import java.util.List;
