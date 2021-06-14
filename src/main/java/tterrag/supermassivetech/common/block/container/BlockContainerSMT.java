@@ -1,13 +1,13 @@
-package tterrag.supermassivetech.common.block.container;
+package korewali.supermassivetech.common.block.container;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.common.block.BlockSMT;
-import tterrag.supermassivetech.common.tile.abstracts.TileSMTInventory;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.common.block.BlockSMT;
+import korewali.supermassivetech.common.tile.abstracts.TileSMTInventory;
+import korewali.supermassivetech.common.util.Utils;
 
 import com.enderio.core.common.util.ItemUtil;
 
