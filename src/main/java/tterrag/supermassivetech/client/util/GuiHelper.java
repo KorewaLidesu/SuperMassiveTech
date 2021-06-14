@@ -1,9 +1,9 @@
-package tterrag.supermassivetech.client.util;
+package korewali.supermassivetech.client.util;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.client.gui.GuiWaypoint;
-import tterrag.supermassivetech.common.tile.TileWaypoint;
+import korewali.supermassivetech.client.gui.GuiWaypoint;
+import korewali.supermassivetech.common.tile.TileWaypoint;
 
 public class GuiHelper
 {
