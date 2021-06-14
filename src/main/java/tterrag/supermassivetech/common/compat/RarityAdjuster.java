@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.compat;
+package korewali.supermassivetech.common.compat;
 
 import static net.minecraftforge.common.ChestGenHooks.*;
 import net.minecraft.init.Blocks;
@@ -6,7 +6,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.util.WeightedRandomChestContent;
 import net.minecraft.world.biome.BiomeGenBase;
-import tterrag.supermassivetech.common.config.ConfigHandler;
+import korewali.supermassivetech.common.config.ConfigHandler;
 
 public class RarityAdjuster
 {
