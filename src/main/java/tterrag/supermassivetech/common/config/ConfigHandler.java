@@ -1,6 +1,6 @@
-package tterrag.supermassivetech.common.config;
+package korewali.supermassivetech.common.config;
 
-import tterrag.supermassivetech.ModProps;
+import korewali.supermassivetech.ModProps;
 
 import com.enderio.core.common.Handlers.Handler;
 import com.enderio.core.common.Handlers.Handler.HandlerType;
