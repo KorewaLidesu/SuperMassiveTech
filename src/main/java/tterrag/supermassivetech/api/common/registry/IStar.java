@@ -1,7 +1,7 @@
-package tterrag.supermassivetech.api.common.registry;
+package korewali.supermassivetech.api.common.registry;
 
 import net.minecraft.util.EnumChatFormatting;
-import tterrag.supermassivetech.common.registry.Stars.StarTier;
+import korewali.supermassivetech.common.registry.Stars.StarTier;
 import cofh.api.energy.IEnergyContainerItem;
 
 /**
