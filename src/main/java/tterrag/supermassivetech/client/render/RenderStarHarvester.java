@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.render;
+package korewali.supermassivetech.client.render;
 
 import java.util.Random;
 
@@ -12,10 +12,10 @@ import net.minecraftforge.client.model.IModelCustom;
 
 import org.lwjgl.opengl.GL11;
 
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.api.common.registry.IStar;
-import tterrag.supermassivetech.common.tile.energy.TileStarHarvester;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.api.common.registry.IStar;
+import korewali.supermassivetech.common.tile.energy.TileStarHarvester;
+import korewali.supermassivetech.common.util.Utils;
 
 import com.enderio.core.client.render.ColorUtil;
 import com.enderio.core.client.render.DirectionalModelRenderer;
