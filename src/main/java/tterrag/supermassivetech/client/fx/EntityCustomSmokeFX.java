@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.fx;
+package korewali.supermassivetech.client.fx;
 
 import net.minecraft.client.particle.EntitySmokeFX;
 import net.minecraft.world.World;
