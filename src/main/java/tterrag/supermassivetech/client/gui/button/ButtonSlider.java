@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.gui.button;
+package korewali.supermassivetech.client.gui.button;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
