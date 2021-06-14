@@ -1,14 +1,14 @@
-package tterrag.supermassivetech.client.gui;
+package korewali.supermassivetech.client.gui;
 
 import java.awt.Color;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.GuiTextField;
-import tterrag.supermassivetech.client.gui.button.ButtonSlider;
-import tterrag.supermassivetech.common.network.PacketHandler;
-import tterrag.supermassivetech.common.network.message.tile.MessageWaypointUpdate;
-import tterrag.supermassivetech.common.tile.TileWaypoint;
+import korewali.supermassivetech.client.gui.button.ButtonSlider;
+import korewali.supermassivetech.common.network.PacketHandler;
+import korewali.supermassivetech.common.network.message.tile.MessageWaypointUpdate;
+import korewali.supermassivetech.common.tile.TileWaypoint;
 
 public class GuiWaypoint extends GuiScreen
 {
