@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.render;
+package korewali.supermassivetech.client.render;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.OpenGlHelper;
@@ -13,8 +13,8 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.common.tile.TileWaypoint;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.common.tile.TileWaypoint;
 
 import com.enderio.core.client.render.RenderUtil;
 
