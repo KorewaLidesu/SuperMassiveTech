@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.api.common.block;
+package korewali.supermassivetech.api.common.block;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
