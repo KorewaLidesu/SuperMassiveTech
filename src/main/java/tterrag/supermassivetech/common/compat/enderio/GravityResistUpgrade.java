@@ -1,11 +1,11 @@
-package tterrag.supermassivetech.common.compat.enderio;
+package korewali.supermassivetech.common.compat.enderio;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.api.common.item.IStarItem;
-import tterrag.supermassivetech.common.registry.Stars.StarTier;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.api.common.item.IStarItem;
+import korewali.supermassivetech.common.registry.Stars.StarTier;
+import korewali.supermassivetech.common.util.Utils;
 import crazypants.enderio.item.darksteel.upgrade.AbstractUpgrade;
 import crazypants.enderio.item.darksteel.ItemDarkSteelArmor;
 
