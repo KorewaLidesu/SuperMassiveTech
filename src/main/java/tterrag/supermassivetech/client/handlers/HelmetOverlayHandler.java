@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.handlers;
+package korewali.supermassivetech.client.handlers;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -15,12 +15,12 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 
 import org.lwjgl.opengl.GL11;
 
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.common.handlers.GravityArmorHandler;
-import tterrag.supermassivetech.common.item.ItemGravityArmor;
-import tterrag.supermassivetech.common.network.message.MessageUpdateGravityArmor.PowerUps;
-import tterrag.supermassivetech.common.util.Utils;
-import tterrag.supermassivetech.common.util.Waypoint;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.common.handlers.GravityArmorHandler;
+import korewali.supermassivetech.common.item.ItemGravityArmor;
+import korewali.supermassivetech.common.network.message.MessageUpdateGravityArmor.PowerUps;
+import korewali.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.common.util.Waypoint;
 
 import com.enderio.core.common.Handlers.Handler;
 import com.enderio.core.common.Handlers.Handler.HandlerType;
