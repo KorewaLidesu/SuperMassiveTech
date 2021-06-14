@@ -1,9 +1,9 @@
-package tterrag.supermassivetech.common.enchant;
+package korewali.supermassivetech.common.enchant;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnumEnchantmentType;
 import net.minecraft.item.ItemStack;
-import tterrag.supermassivetech.common.config.ConfigHandler;
+import korewali.supermassivetech.common.config.ConfigHandler;
 
 import com.enderio.core.api.common.enchant.IAdvancedEnchant;
 
