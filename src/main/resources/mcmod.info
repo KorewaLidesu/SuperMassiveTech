@@ -1,13 +1,13 @@
 [
 {
   "modid": "superMassiveTech",
-  "name": "Super Massive Tech",
+  "name": "Super Massive Tech - Rework",
   "description": "A mod all about stars, black holes, and all the powers and disasters that accompany them.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "http://ci.tterrag.com",
-  "updateUrl": "http://ci.tterrag.com/job/Super%20Massive%20Tech",
-  "authors": ["tterrag"],
+  "url": "https://github.com/KorewaLidesu/SuperMassiveTech",
+  "updateUrl": "https://github.com/KorewaLidesu/SuperMassiveTech/actions",
+  "authors": ["tterrag, KorewaLi"],
   "credits": "timewarp - texture artist\nwha-ha-ha - texture artist and ideas\nSphericon - ideas and coding",
   "logoFile": "",
   "screenshots": [],
