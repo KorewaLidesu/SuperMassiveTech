@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.container;
+package korewali.supermassivetech.common.container;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import net.minecraft.inventory.ICrafting;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
-import tterrag.supermassivetech.common.network.PacketHandler;
-import tterrag.supermassivetech.common.network.message.tile.MessageBlackHoleStorage;
-import tterrag.supermassivetech.common.tile.TileBlackHoleStorage;
+import korewali.supermassivetech.common.network.PacketHandler;
+import korewali.supermassivetech.common.network.message.tile.MessageBlackHoleStorage;
+import korewali.supermassivetech.common.tile.TileBlackHoleStorage;
 
 import com.enderio.core.common.util.ItemUtil;
 
