@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.handlers;
+package korewali.supermassivetech.common.handlers;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.tileentity.TileEntity;
@@ -6,7 +6,7 @@ import net.minecraftforge.event.world.BlockEvent;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import tterrag.supermassivetech.common.tile.TileWaypoint;
+import korewali.supermassivetech.common.tile.TileWaypoint;
 
 import com.enderio.core.common.Handlers.Handler;
 import com.enderio.core.common.Handlers.Handler.HandlerType;
