@@ -1,9 +1,9 @@
-package tterrag.supermassivetech.client.gui;
+package korewali.supermassivetech.client.gui;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.common.container.ContainerBlackHoleStorage;
-import tterrag.supermassivetech.common.tile.TileBlackHoleStorage;
+import korewali.supermassivetech.common.container.ContainerBlackHoleStorage;
+import korewali.supermassivetech.common.tile.TileBlackHoleStorage;
 import cpw.mods.fml.common.network.IGuiHandler;
 
 public class GuiHandler implements IGuiHandler
