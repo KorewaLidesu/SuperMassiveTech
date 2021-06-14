@@ -1,10 +1,10 @@
-package tterrag.supermassivetech.client.render;
+package korewali.supermassivetech.client.render;
 
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.api.common.tile.IBlackHole;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.api.common.tile.IBlackHole;
 
 import com.enderio.core.client.handlers.ClientHandler;
 import com.enderio.core.client.render.RenderUtil;
