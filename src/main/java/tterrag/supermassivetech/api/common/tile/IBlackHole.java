@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.api.common.tile;
+package korewali.supermassivetech.api.common.tile;
 
 import net.minecraft.entity.Entity;
 
