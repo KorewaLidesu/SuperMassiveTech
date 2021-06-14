@@ -1,11 +1,11 @@
-package tterrag.supermassivetech.common.handlers;
+package korewali.supermassivetech.common.handlers;
 
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.common.registry.Achievements;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.common.registry.Achievements;
 
 import com.enderio.core.common.Handlers.Handler;
 import com.enderio.core.common.Handlers.Handler.HandlerType;
