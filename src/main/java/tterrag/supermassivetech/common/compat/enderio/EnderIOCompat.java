@@ -1,10 +1,10 @@
-package tterrag.supermassivetech.common.compat.enderio;
+package korewali.supermassivetech.common.compat.enderio;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import tterrag.supermassivetech.client.util.ClientUtils;
-import tterrag.supermassivetech.common.config.ConfigHandler;
-import tterrag.supermassivetech.common.handlers.GravityArmorHandler;
+import korewali.supermassivetech.client.util.ClientUtils;
+import korewali.supermassivetech.common.config.ConfigHandler;
+import korewali.supermassivetech.common.handlers.GravityArmorHandler;
 import cofh.api.energy.IEnergyContainerItem;
 
 import com.enderio.core.common.Handlers.Handler;
