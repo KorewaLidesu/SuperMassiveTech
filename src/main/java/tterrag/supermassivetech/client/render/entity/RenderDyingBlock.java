@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.render.entity;
+package korewali.supermassivetech.client.render.entity;
 
 import java.util.Random;
 
@@ -9,7 +9,7 @@ import net.minecraft.client.renderer.texture.TextureMap;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.MathHelper;
 import net.minecraft.util.ResourceLocation;
-import tterrag.supermassivetech.common.entity.EntityDyingBlock;
+import korewali.supermassivetech.common.entity.EntityDyingBlock;
 
 import com.enderio.core.client.render.RenderUtil;
 
