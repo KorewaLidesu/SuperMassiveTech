@@ -1,9 +1,9 @@
-package tterrag.supermassivetech.client.config;
+package korewali.supermassivetech.client.config;
 
 import net.minecraft.client.gui.GuiScreen;
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.common.config.ConfigHandler;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.common.config.ConfigHandler;
+import korewali.supermassivetech.common.util.Utils;
 
 import com.enderio.core.api.common.config.IConfigHandler;
 import com.enderio.core.client.config.BaseConfigGui;
