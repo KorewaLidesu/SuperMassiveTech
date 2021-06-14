@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.block;
+package korewali.supermassivetech.common.block;
 
 import java.util.List;
 import java.util.Random;
