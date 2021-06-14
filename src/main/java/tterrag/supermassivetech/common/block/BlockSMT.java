@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.block;
+package korewali.supermassivetech.common.block;
 
 import java.util.List;
 import java.util.Random;
@@ -13,10 +13,10 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.Facing;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.SuperMassiveTech;
-import tterrag.supermassivetech.api.common.block.ISaveToItem;
-import tterrag.supermassivetech.api.common.compat.IWailaAdditionalInfo;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.SuperMassiveTech;
+import korewali.supermassivetech.api.common.block.ISaveToItem;
+import korewali.supermassivetech.api.common.compat.IWailaAdditionalInfo;
 
 import com.enderio.core.common.util.ItemUtil;
 
