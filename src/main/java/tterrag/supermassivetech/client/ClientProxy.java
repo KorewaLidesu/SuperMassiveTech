@@ -1,26 +1,26 @@
-package tterrag.supermassivetech.client;
+package korewali.supermassivetech.client;
 
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.MinecraftForgeClient;
 import net.minecraftforge.client.model.obj.WavefrontObject;
-import tterrag.supermassivetech.ModProps;
-import tterrag.supermassivetech.client.model.ModelBlackHoleStorage;
-import tterrag.supermassivetech.client.render.BlackHoleSpecialRenderer;
-import tterrag.supermassivetech.client.render.ChargerSpecialRenderer;
-import tterrag.supermassivetech.client.render.RenderStarHarvester;
-import tterrag.supermassivetech.client.render.WaypointSpecialRenderer;
-import tterrag.supermassivetech.client.render.entity.RenderDyingBlock;
-import tterrag.supermassivetech.client.render.entity.RenderFormingStar;
-import tterrag.supermassivetech.common.CommonProxy;
-import tterrag.supermassivetech.common.entity.EntityDyingBlock;
-import tterrag.supermassivetech.common.entity.EntityFormingStar;
-import tterrag.supermassivetech.common.tile.TileBlackHole;
-import tterrag.supermassivetech.common.tile.TileBlackHoleHopper;
-import tterrag.supermassivetech.common.tile.TileBlackHoleStorage;
-import tterrag.supermassivetech.common.tile.TileWaypoint;
-import tterrag.supermassivetech.common.tile.energy.TileCharger;
-import tterrag.supermassivetech.common.tile.energy.TileStarHarvester;
+import korewali.supermassivetech.ModProps;
+import korewali.supermassivetech.client.model.ModelBlackHoleStorage;
+import korewali.supermassivetech.client.render.BlackHoleSpecialRenderer;
+import korewali.supermassivetech.client.render.ChargerSpecialRenderer;
+import korewali.supermassivetech.client.render.RenderStarHarvester;
+import korewali.supermassivetech.client.render.WaypointSpecialRenderer;
+import korewali.supermassivetech.client.render.entity.RenderDyingBlock;
+import korewali.supermassivetech.client.render.entity.RenderFormingStar;
+import korewali.supermassivetech.common.CommonProxy;
+import korewali.supermassivetech.common.entity.EntityDyingBlock;
+import korewali.supermassivetech.common.entity.EntityFormingStar;
+import korewali.supermassivetech.common.tile.TileBlackHole;
+import korewali.supermassivetech.common.tile.TileBlackHoleHopper;
+import korewali.supermassivetech.common.tile.TileBlackHoleStorage;
+import korewali.supermassivetech.common.tile.TileWaypoint;
+import korewali.supermassivetech.common.tile.energy.TileCharger;
+import korewali.supermassivetech.common.tile.energy.TileStarHarvester;
 
 import com.enderio.core.client.render.DirectionalModelRenderer;
 import com.enderio.core.client.render.SimpleModelRenderer;
@@ -28,7 +28,7 @@ import com.enderio.core.client.render.SimpleModelRenderer;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 
-import static tterrag.supermassivetech.SuperMassiveTech.*;
+import static korewali.supermassivetech.SuperMassiveTech.*;
 
 public class ClientProxy extends CommonProxy
 {
