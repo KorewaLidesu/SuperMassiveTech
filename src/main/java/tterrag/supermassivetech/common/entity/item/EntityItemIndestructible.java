@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.common.entity.item;
+package korewali.supermassivetech.common.entity.item;
 
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
