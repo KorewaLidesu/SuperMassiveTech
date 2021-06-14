@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.client.handlers;
+package korewali.supermassivetech.client.handlers;
 
 import java.util.LinkedList;
 
@@ -11,11 +11,11 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.input.Keyboard;
 
-import tterrag.supermassivetech.common.network.PacketHandler;
-import tterrag.supermassivetech.common.network.message.MessageJumpUpdate;
-import tterrag.supermassivetech.common.network.message.MessageUpdateGravityArmor;
-import tterrag.supermassivetech.common.network.message.MessageUpdateGravityArmor.PowerUps;
-import tterrag.supermassivetech.common.util.Utils;
+import korewali.supermassivetech.common.network.PacketHandler;
+import korewali.supermassivetech.common.network.message.MessageJumpUpdate;
+import korewali.supermassivetech.common.network.message.MessageUpdateGravityArmor;
+import korewali.supermassivetech.common.network.message.MessageUpdateGravityArmor.PowerUps;
+import korewali.supermassivetech.common.util.Utils;
 
 import com.enderio.core.common.Handlers.Handler;
 import com.enderio.core.common.Handlers.Handler.HandlerType;
@@ -27,7 +27,7 @@ import cpw.mods.fml.common.gameevent.TickEvent.ClientTickEvent;
 import cpw.mods.fml.common.gameevent.TickEvent.Phase;
 
 import static net.minecraft.util.EnumChatFormatting.*;
-import static tterrag.supermassivetech.common.handlers.GravityArmorHandler.*;
+import static korewali.supermassivetech.common.handlers.GravityArmorHandler.*;
 
 @Handler(HandlerType.FML)
 public class ClientKeyHandler
