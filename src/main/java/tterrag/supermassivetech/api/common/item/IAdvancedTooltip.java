@@ -1,4 +1,4 @@
-package tterrag.supermassivetech.api.common.item;
+package korewali.supermassivetech.api.common.item;
 
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.relauncher.Side;
