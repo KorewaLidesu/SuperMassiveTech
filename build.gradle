@@ -10,9 +10,7 @@ buildscript {
 	maven { url = "https://gregtech.overminddl1.com/" }
     }
     dependencies {
-        classpath("com.anatawa12.forge:ForgeGradle:1.2-1.0.+") {
-            changing = true
-        }
+	classpath 'com.github.GTNH2:ForgeGradle:FG_1.2-SNAPSHOT'
     }
 }
 
