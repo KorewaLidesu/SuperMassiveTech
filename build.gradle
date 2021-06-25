@@ -3,8 +3,7 @@ buildscript {
         mavenCentral()
     	maven { url = "https://jcenter.bintray.com/" }
         maven { 
-		url = "http://files.minecraftforge.net/maven" 
-		allowInsecureProtocol = true
+		url = "https://files.minecraftforge.net/maven" 
 	}
         maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
 	maven { url = "https://gregtech.overminddl1.com/" }
