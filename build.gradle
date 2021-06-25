@@ -1,8 +1,7 @@
 buildscript {
     repositories {
         mavenCentral()
-    	maven { url = "https://jcenter.bintray.com/" }
-        maven { url = "https://files.minecraftforge.net/maven/" }
+        maven { url = "https://maven.minecraftforge.net/" }
         maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
 	maven { url = "https://gregtech.overminddl1.com/" }
 	maven {
@@ -20,6 +19,8 @@ buildscript {
 apply plugin: 'forge'
 apply plugin: 'maven-publish'
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 group = 'korewali.supermassivetech'
 archivesBaseName = "SuperMassiveTech"
@@ -52,8 +53,6 @@ repositories {
         url "http://maven.tterrag.com"
     }
     maven { url = "https://minecraft.curseforge.com/api/maven" }
-	    maven {
-        url = "http://minecraft.curseforge.com/api/maven/"
     }
 }
 
