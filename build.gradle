@@ -2,11 +2,13 @@ buildscript {
     repositories {
         mavenCentral()
     	maven { url = "https://jcenter.bintray.com/" }
-        maven { 
-		url = "https://files.minecraftforge.net/maven" 
-	}
+        maven { url = "https://files.minecraftforge.net/maven" }
         maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
 	maven { url = "https://gregtech.overminddl1.com/" }
+	maven {
+            	name = "jitpack.io"
+            	url = "https://jitpack.io"
+        }
     }
     dependencies {
 	classpath 'com.github.GTNH2:ForgeGradle:FG_1.2-SNAPSHOT'
